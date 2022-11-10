@@ -1,0 +1,362 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+
+/* Home */
+
+
+
+.container-categories {
+    position: absolute;
+    width: 129px;
+    height: 36px;
+    left: 144.5px;
+    top: 230.66px;
+
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.category-title {
+    font-weight: 700;
+}
+
+.add-category {
+    width: 200px;
+    height: 36px;
+    left: 144.5px;
+    top: 560.66px;
+    
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    
+    color: #ABABAB;
+}
+
+.container-task {
+    position: absolute;
+    width: 199px;
+    height: 60px;
+    left: 478.24px;
+    top: 84.16px;
+
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.add-task {
+    height: 58px;
+    width: 716px;
+    font-size: 30px;
+
+    left: 33.21%;
+    right: 17.07%;
+    top: 16.76%;
+    bottom: 77.57%;
+
+    background: #E1DEDE;
+    border-radius: 6px;
+}
+
+.add-task::placeholder {
+    position: absolute;
+    width: 191px;
+    height: 36px;
+    left: 18.26px;
+    top: 11px;
+
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    
+    color: #ABABAB;
+}
+
+.inline {
+    display: inline-flex;
+}
+
+.checkbox-todo {
+    width: 40px;
+    height: 40px;
+    
+    border: 3px solid #EB5757;
+    border-radius: 15px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.title-todo {
+    font-family: SF Pro;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    width: 322px;
+    height: 36px;
+    
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.rectangle-todo {
+    height: 33px;
+    width: 101px;
+    left: 0px;
+    top: 0px;
+    border-radius: 40px;
+
+    background: #27AE60;
+    border-radius: 40px;
+}
+
+.category-todo {
+    height: 16px;
+    width: 60px;
+    border-radius: nullpx;
+
+    left: 20.3%;
+    right: 20.3%;
+    top: 25.76%;
+    bottom: 25.76%;
+
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.is-complete {
+    height: 36px;
+    width: 377px;
+    left: 56px;
+    top: 2px;
+    border-radius: nullpx;
+
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-decoration-line: line-through;
+
+    color: #EB5757;
+}
+
+.is-checked {
+    background: #39AE68;
+}
+
+
+/* LOGIN CSS */
+.grad1 {
+    position: absolute;
+    width: 419.14px;
+    height: 221.99px;
+    left: -34px;
+    top: -144px;
+
+    background: linear-gradient(85.13deg, rgba(235, 87, 87, 0.6) 3.92%, rgba(151, 71, 255, 0.6) 98.45%);
+    filter: blur(118.419px);
+}
+.to-do-list {
+    position: absolute;
+    width: 383px;
+    height: 286px;
+    left: 126px;
+    top: 126px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 117.752px;
+    line-height: 143px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+
+    background: linear-gradient(98.28deg, #EB5757 4.09%, #9B51E0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.card-to-do
+ {
+    position: absolute;
+    width: 659px;
+    height: 425px;
+    left: 126px;
+    top: 452px;
+
+    background: url(image.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.container-right {
+    position: absolute;
+    width: 509px;
+    height: 1024px;
+    left: 931px;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+
+
+.login-box {
+    position: absolute;
+    width: 509px;
+    height: 1024px;
+    left: 931px;
+    top: 0px;
+
+    margin:100px;
+
+    background: #FFFFFF;
+}
+
+.signup-box {
+    position: absolute;
+    width: 509px;
+    height: 1024px;
+    left: 931px;
+    top: 0px;
+
+    margin:100px;
+
+    background: #FFFFFF;
+}
+
+
+.container-right-p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    letter-spacing: 0.005em;
+
+    color: #5D5871;
+}
+
+
+.login-box input {
+    box-sizing: border-box;
+
+    width: 381px;
+    height: 44px;
+    left: 995px;
+    top: 295px;
+
+    background: #FFFFFF;
+    border: 1px solid #E6EAEC;
+    border-radius: 5px;
+}
+
+.signup-box input {
+    box-sizing: border-box;
+
+    width: 381px;
+    height: 44px;
+    left: 995px;
+    top: 295px;
+
+    background: #FFFFFF;
+    border: 1px solid #E6EAEC;
+    border-radius: 5px;
+}
+
+.login-box label {
+    width: 40px;
+    height: 17px;
+    left: 995px;
+    top: 273px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+
+    letter-spacing: 0.005em;
+
+    color: #5D5871;
+}
+
+.signup-box label {
+    width: 40px;
+    height: 17px;
+    left: 995px;
+    top: 273px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    /* identical to box height, or 17px */
+
+    letter-spacing: 0.005em;
+
+    color: #5D5871;
+}
+
+.login-button {
+    width: 381px;
+    height: 44px;
+    left: 995px;
+    top: 703px;
+
+    background: #1571DE;
+    border-radius: 5px;
+}
+
+.signup-button {
+    width: 381px;
+    height: 44px;
+    left: 995px;
+    top: 703px;
+
+    background: #1571DE;
+    border-radius: 5px;
+}
